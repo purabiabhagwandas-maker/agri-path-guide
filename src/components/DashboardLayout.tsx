@@ -24,7 +24,7 @@ export function DashboardLayout({ children }: { children: React.ReactNode }) {
                 variant="ghost"
                 size="icon"
                 className="relative text-muted-foreground hover:text-foreground"
-                onClick={() => navigate("/notifications")}
+                onClick={() => navigate("/dashboard/notifications")}
               >
                 <Bell className="h-4 w-4" />
                 <span className="absolute -top-0.5 -right-0.5 h-3 w-3 rounded-full bg-secondary border-2 border-card" />
